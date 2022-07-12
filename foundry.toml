@@ -1,0 +1,16 @@
+# Full reference https://github.com/foundry-rs/foundry/tree/master/config
+
+[default]
+auto_detect_solc = false
+fuzz_runs = 10_000
+libs = ["lib"]
+gas_reports = ["*"]
+optimizer = true
+optimizer_runs = 10_000_000
+out = "out"
+solc = "0.8.15"
+src = "src"
+test = "test"
+
+[via-ir]
+via_ir = true
